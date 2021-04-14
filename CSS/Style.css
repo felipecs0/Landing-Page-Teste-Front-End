@@ -1,0 +1,197 @@
+body{
+    background: #faf9f9;
+}
+
+/*--------------Navbar-------------*/
+.navbar{
+    height: 4rem;
+}
+.navbar-nav{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-bg{
+
+    background-color: #46b278;
+
+}
+.icon-nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-right: 100px;
+
+}
+.icon-nav-img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:30px;
+    height:30px;
+}
+/*--------------Botão Carousel-------------*/
+.btn-store{
+    border: none;
+    background: transparent;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid black;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.store{
+    position: absolute; top:220px; left: 20%;  
+    
+}
+.text-carousel{
+    color: rgb(59, 59, 59);
+    max-width: 60%;
+}
+.icon-btn{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.btn:hover{
+    top:-4px; box-shadow:0 4px 3px #999
+}
+/*--------------Feature-on-------------*/
+
+.background-feature{
+    background: #f3f3f3;
+}
+.feature-on{
+    padding-top: 25px;
+    padding-bottom:25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logos{
+    margin-left: 50px
+
+}
+
+/*--------------APP DOWNLOAD-------------*/
+.About-the-app{
+    display:flex;
+    flex-direction:row;
+}
+.img-phone{
+    width: 15rem;
+    margin-left: 16rem;
+    margin-top: 3rem;
+}
+.text-phone{
+    margin-top: 3rem; 
+    
+}
+.icons-descriptions{
+    width:20px;
+    margin-right: 20px;
+    
+}
+.btn-video{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 1px solid;
+    padding: 5px 15px 5px 15px;
+}
+.link-app{
+    color: rgb(151, 151, 151) ;
+}
+
+/*--------------Features-------------*/
+.features{
+    background-color:#46b278;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cards{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.feature-card{
+    width:250px;
+    height:250px;
+    margin-top: 50px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.feature-icon{
+    display:block;
+    margin:auto;
+    margin-bottom: 25px;
+}
+
+.testimonials{
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+}
+/*--------------Subscription-------------*/
+.subscription{
+    height: 250px;
+    background-color: #46b278;
+    
+}
+.subscription-box{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.input-mail{
+    position: relative;
+    margin-top: 25px;
+    width: 350px;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+}
+.email-submit{
+    position: absolute;
+    border: none;
+    background-color:transparent;
+    height:50px;
+    margin-left: -50px;
+    margin-top: 23px;
+    padding: 0px 0px 0px 0px;
+}
+.btn-submit:hover{
+    width: 23px;
+    height: 18px;
+}
+
+/*--------------Footer-------------*/
+.footer{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+.footer-img{
+    margin:50px;
+}
